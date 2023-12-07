@@ -3,11 +3,13 @@ class exer01 {
     companion object {
         fun main() {
             println("Exercício 01:")
+            println("Escreva várias strings (separadas por vírgula):")
+            val entradaDoUsuario = readln()
 
-            val listaDeStrings = listOf("Abacaxi", "Banana", "Maçã", "abacate")
+            val listaDeStrings = entradaDoUsuario?.split(",")?.map { it.trim() } ?: emptyList()
             val qtdDeStringsComA = contarStringsComecandoComA(listaDeStrings)
 
-            println("Quantidade de strings que começam com A: $qtdDeStringsComA")
+            println("Quantidade de strings que começam com A (sem acento): $qtdDeStringsComA")
         }
 
         fun contarStringsComecandoComA(lista: List<String>): Int {
