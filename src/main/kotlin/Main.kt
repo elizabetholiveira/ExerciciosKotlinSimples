@@ -1,5 +1,6 @@
 import kotlin.NumberFormatException
 
+//Tentando fazer os 5 primeiros exercícios rodarem aqui como se fosse um menu de seleção
 fun main(args: Array<String>) {
     println("Hello World!")
     var entradaCorreta = false
@@ -11,7 +12,7 @@ fun main(args: Array<String>) {
 
         //TODO Ajeitar que isso tá fazendo a lista de exercícios rodar todinha
         //val (listaExercicios, qtdExer1) = exer()
-        val qtdExer = 1
+        val qtdExer = 5
 
         while (i <= qtdExer) {
             println("$i ) Exercício $i")
@@ -28,6 +29,10 @@ fun main(args: Array<String>) {
                 when (entradaDoUsuario) {
                     //entradaDoUsuario -> listaExercicios[entradaDoUsuario - 1]
                     1 -> exer01.main()
+                    2 -> exer02.main()
+                    3 -> println("3")
+                    4 -> println("4")
+                    5 -> println("5")
                 }
             }
                 else {
