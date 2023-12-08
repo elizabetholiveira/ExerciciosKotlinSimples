@@ -2,7 +2,7 @@
 
 1. Crie uma função que recebe uma lista de strings e retorna a quantidade de strings que começam com a letra "A". ✔️
 2. Implemente uma função que recebe uma data de nascimento (no formato DD/MM/AAAA) e retorna a idade da pessoa. ✔️
-3. Desenvolva uma função que recebe uma lista de números inteiros e retorna o maior número da lista.
+3. Desenvolva uma função que recebe uma lista de números inteiros e retorna o maior número da lista. ✔️
 4. Crie uma função que recebe uma frase e conta a quantidade de vogais presentes.
 5. Implemente um programa que gera e exibe uma sequência fibonacci de tamanho n, onde n é um número fornecido pelo usuário.
 
