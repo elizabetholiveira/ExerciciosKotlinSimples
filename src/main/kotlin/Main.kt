@@ -30,7 +30,7 @@ fun main(args: Array<String>) {
                     //entradaDoUsuario -> listaExercicios[entradaDoUsuario - 1]
                     1 -> exer01.main()
                     2 -> exer02.main()
-                    3 -> println("3")
+                    3 -> exer03.main()
                     4 -> println("4")
                     5 -> println("5")
                 }
