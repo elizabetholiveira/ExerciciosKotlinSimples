@@ -32,7 +32,7 @@ fun main(args: Array<String>) {
                     2 -> exer02.main()
                     3 -> exer03.main()
                     4 -> exer04.main()
-                    5 -> println("5")
+                    5 -> exer05.main()
                 }
             }
                 else {
