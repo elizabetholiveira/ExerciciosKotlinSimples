@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
                     1 -> exer01.main()
                     2 -> exer02.main()
                     3 -> exer03.main()
-                    4 -> println("4")
+                    4 -> exer04.main()
                     5 -> println("5")
                 }
             }
@@ -46,10 +46,23 @@ fun main(args: Array<String>) {
 
 }
 
-fun exer(): Pair<List<Unit>, Int> {
+fun exer(): List<Unit> {
     var exercicios = listOf(
         exer01.main()
     )
 
-    return exercicios to exercicios.size
+    return exercicios
 }
+// fun exer(): Pair<List<Unit>, Int> {
+//    var exercicios = listOf(
+//        exer01.main()
+//    )
+//
+//    return exercicios to exercicios.size
+//}
+
+fun qtdExer(): Int {
+    val qtdExer = exer().size
+    return qtdExer
+}
+
