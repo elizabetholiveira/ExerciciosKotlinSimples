@@ -1,6 +1,6 @@
 import kotlin.NumberFormatException
 
-//Tentando fazer os 5 primeiros exercícios rodarem aqui como se fosse um menu de seleção
+//Fazendo os 5 primeiros exercícios rodarem aqui como se fosse um menu de seleção
 fun main(args: Array<String>) {
     println("Hello World!")
     var entradaCorreta = false
@@ -11,8 +11,8 @@ fun main(args: Array<String>) {
         var i = 1
 
         //TODO Ajeitar que isso tá fazendo a lista de exercícios rodar todinha
-        //val (listaExercicios, qtdExer1) = exer()
-        val qtdExer = 5
+        val listaExercicios = exer()
+        val qtdExer = listaExercicios.size
 
         while (i <= qtdExer) {
             println("$i ) Exercício $i")
@@ -27,18 +27,13 @@ fun main(args: Array<String>) {
             entradaCorreta = true
             if (entradaDoUsuario <= qtdExer) {
                 when (entradaDoUsuario) {
-                    //entradaDoUsuario -> listaExercicios[entradaDoUsuario - 1]
-                    1 -> exer01.main()
-                    2 -> exer02.main()
-                    3 -> exer03.main()
-                    4 -> exer04.main()
-                    5 -> exer05.main()
+                    entradaDoUsuario -> listaExercicios[entradaDoUsuario - 1].main()
+
                 }
+            } else {
+                println("Número inválido")
+                entradaCorreta = false
             }
-                else {
-                    println("Número inválido")
-                    entradaCorreta = false
-                }
         } catch (e: NumberFormatException) {
             println("Entrada inválida. Por favor, digite apenas o número")
         }
@@ -46,23 +41,14 @@ fun main(args: Array<String>) {
 
 }
 
-fun exer(): List<Unit> {
-    var exercicios = listOf(
-        exer01.main()
+fun exer(): List<exer> {
+    var exercicios: List<exer> = listOf(
+        exer01(),
+        exer02(),
+        exer03(),
+        exer04(),
+        exer05()
     )
 
     return exercicios
 }
-// fun exer(): Pair<List<Unit>, Int> {
-//    var exercicios = listOf(
-//        exer01.main()
-//    )
-//
-//    return exercicios to exercicios.size
-//}
-
-fun qtdExer(): Int {
-    val qtdExer = exer().size
-    return qtdExer
-}
-

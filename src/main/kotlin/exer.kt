@@ -1,0 +1,5 @@
+interface exer {
+
+    fun main()
+
+}

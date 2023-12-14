@@ -1,7 +1,6 @@
-class exer01 {
+class exer01(): exer {
 
-    companion object {
-        fun main() {
+    override fun main() {
             println("Exercício 01:")
             println("Escreva várias strings (separadas por vírgula):")
             val entradaDoUsuario = readln()
@@ -16,6 +15,5 @@ class exer01 {
             val stringsComA = lista.filter { it.startsWith("A", ignoreCase = true) }
             return stringsComA.size
         }
-    }
 
 }

@@ -1,8 +1,7 @@
-class exer05 {
+class exer05(): exer {
 
-    companion object {
-
-        fun main() {
+        override fun main() {
+            println("Exercício 05:")
             println("Vou gerar uma sequência de fibonacci. Por favor, quantos números você quer nessa lista?")
             val entradaDoUsuario = readln()
 
@@ -24,7 +23,5 @@ class exer05 {
                 fibonacci(n - 1) + fibonacci(n - 2)
             }
         }
-
-    }
 
 }
