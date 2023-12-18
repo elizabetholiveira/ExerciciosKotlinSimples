@@ -10,6 +10,6 @@
 7. Crie uma função que recebe uma lista de palavras e retorna uma nova lista com as palavras em ordem inversa. ✔️
 8. Implemente uma classe de estoque que possua os métodos de adicionar, remover e verificar a quantidade de um determinado produto. (vai para outro repositório)
 9. Desenvolva uma função que recebe uma lista de números e retorna a média dos valores. ✔️
-10. Crie um programa que calcule e exiba o fatorial de um número fornecido pelo usuário.
+10. Crie um programa que calcule e exiba o fatorial de um número fornecido pelo usuário. ✔️
 
 11. Crie um programa que faça a conjugação dos verbos regulares em português.
