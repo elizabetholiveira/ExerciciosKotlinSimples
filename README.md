@@ -12,4 +12,4 @@
 9. Desenvolva uma função que recebe uma lista de números e retorna a média dos valores. ✔️
 10. Crie um programa que calcule e exiba o fatorial de um número fornecido pelo usuário. ✔️
 
-11. Crie um programa que faça a conjugação dos verbos regulares em português.
+11. Crie um programa que faça a conjugação dos verbos regulares em português. ✔️
