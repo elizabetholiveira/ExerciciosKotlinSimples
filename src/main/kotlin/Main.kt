@@ -10,7 +10,6 @@ fun main(args: Array<String>) {
 
         var i = 1
 
-        //TODO Ajeitar que isso tá fazendo a lista de exercícios rodar todinha
         val listaExercicios = exer()
         val qtdExer = listaExercicios.size
 
